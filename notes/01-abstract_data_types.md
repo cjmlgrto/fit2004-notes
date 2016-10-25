@@ -1,4 +1,4 @@
-[← Return to Index](/)
+[← Return to Index](/readme.md)
 
 # Abstract Data Types
 
