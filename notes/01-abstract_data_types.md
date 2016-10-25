@@ -1,4 +1,4 @@
-[← Return to Index]()
+[← Return to Index](/)
 
 # Abstract Data Types
 
