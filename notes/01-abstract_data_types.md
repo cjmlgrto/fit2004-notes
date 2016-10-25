@@ -42,20 +42,17 @@ RULES
 ### Functions
 
 ```lisp
-length function
-    length(nil) = 0 
+length(nil) = 0 
     | length(cons(h,T)) = 1 + length(T)
 
-append function
-    append(nil, L2) = L2
+append(nil, L2) = L2
     | append(L1, L2) = append(cons(h1,T1),L2)
                    = cons(h1, append(T1, L2))
 
 ;COMMENT: L1, L2 are two lists.
                          
-merge function
+merge(nil, nil) = nil
 	; produces a sorted list if |L1| & |L2| not nil
-    merge(nil, nil) = nil
     | merge(nil, L1) = L1
     | merge(L1, nil) = L1
     | merge(L1, L2) = 
@@ -64,8 +61,50 @@ merge function
     else
         cons(head(L2), merge(L1, tail(L2))
         
-reverse function
-    reverse(nil) = nil
+reverse(nil) = nil
     | reverse(cons(h,T) = append(reverse(T), cons(h,nil))
 ```
 
+## Trees
+
+### Definition
+
+```lisp
+TYPES
+    type tree = nilTree | fork e * (tree e) * (tree e)
+    
+```
+
+### Operations
+   
+```lisp
+OPERATIONS
+    empty : tree e -> boolean
+    leaf : tree e -> boolean
+    fork : e * tree e * tree e -> tree e
+    left : tree e -> tree e
+    right: tree e -> tree e
+    contents : tree e -> e
+```
+
+### Functions
+
+``` lisp
+height(nilTree) = 0
+    | height(fork(e, TL, TR)) = 1 + max(height(TL), height(TR))
+    
+weight(nilTree) = 0
+    | weight(fork(e,TL, TR)) = 1 + weight(TL) + weight(TR) 
+
+preorder(nilTree) = nil
+	| preorder(fork(e,TL,TR)) = print(e), preorder(TL), preorder(TR)
+	
+inorder(nilTree) = nil
+	| inorder(fork(e,TL,TR)) = inorder(TL), print(e), inorder(TR)
+	
+postorder(nilTree) = nil
+	| postorder(fork(e,TL,TR)) = postorder(TL), postorder(TR), print(e)
+	
+breadthfirst(nilTree) = nil
+	; root is visited, then children, then grandchildren etc
+```
