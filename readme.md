@@ -6,3 +6,4 @@
 2. [Correctness and Complexity](/notes/02-correctness_and_complexity.md)
 3. [Sorting](/notes/03-sorting.md)
 4. [Dynammic Programming](/notes/04-dynamic_programming.md)
+5. [Efficient Lookup Structures](/notes/05-efficient_lookup_structures.md)
