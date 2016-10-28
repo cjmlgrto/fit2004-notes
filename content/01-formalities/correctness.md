@@ -22,16 +22,16 @@ Let's say we already know that the algorithm below always terminates. We just ha
 def find_min(L):
     min = L[0]
     index = 1
-    // HERE
+    # HERE
     while index <= len(L):
         if L[index] < min:
             min = L[index]
         index += 1
-    // HERE
+    # HERE
     return min
 ```
 
-In the above code, the invariants in the places marked `// HERE` are:
+In the above code, the invariants in the places marked `# HERE` are:
 
 - `min` holds the smallest item from `L[0..index]`
 - `index` is always increasing
