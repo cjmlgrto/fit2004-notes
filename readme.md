@@ -12,7 +12,7 @@ In this repo is everything I've learned while studying the FIT2004 unit at Monas
 - [The List ADT](/content/01-formalities/list-adt.md)
 - [The Tree ADT](/content/01-formalities/tree-adt.md)
 - [Correctness](/content/01-formalities/correctness.md)
-- Complexity
+- [Complexity](/content/01-formalities/complexity.md)
 
 ### Sorting Algorithms
 
