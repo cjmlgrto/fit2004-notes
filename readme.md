@@ -65,8 +65,9 @@ In this repo is everything I've learned while studying the FIT2004 unit at Monas
 
 ### Numerical Algorithms
 
-- Interval Bisection
-- Newton's Method for the Integral
+- [Interval Bisection](/content/09-numerical-algorithms/interval-bisection.md)
+- [Newton's Method](/content/09-numerical-algorithms/newtons-method.md)
+- [Calculating Integrals](/content/09-numerical-algorithms/calculating-integrals.md)
 
 ### P vs NP
 
