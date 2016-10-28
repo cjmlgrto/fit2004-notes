@@ -53,9 +53,9 @@ In this repo is everything I've learned while studying the FIT2004 unit at Monas
 
 ### Tree Algorithms
 
-- Minimum Spanning Trees
-- Prim's Algorithm
-- Krusal's Algorithm
+- [Minimum Spanning Trees](/content/07-tree-algorithms/minimum-spanning-trees.md)
+- [Prim's Algorithm](/content/07-tree-algorithms/prims-algorithm.md)
+- [Kruskal's Algorithm](/content/07-tree-algorithms/kruskals-algorithm.md)
 
 ### Directed Acyclic Graphs
 
