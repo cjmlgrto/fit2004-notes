@@ -48,8 +48,8 @@ In this repo is everything I've learned while studying the FIT2004 unit at Monas
 - [Graphs](/content/06-graph-algorithms/graphs.md)
 - [Breadth-First Search](/content/06-graph-algorithms/breadth-first-search.md)
 - [Dijkstra's Algorithm](/content/06-graph-algorithms/dijkstras-algorithm.md)
-- Bellman-Ford Algorithm
-- Floyd-Warshall Algorithm
+- [Bellman-Ford Algorithm](/content/06-graph-algorithms/bellman-ford-algorithm.md)
+- [Floyd-Warshall Algorithm](/content/06-graph-algorithms/floyd-warshall-algorithm.md)
 
 ### Tree Algorithms
 
