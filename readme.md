@@ -16,11 +16,11 @@ In this repo is everything I've learned while studying the FIT2004 unit at Monas
 
 ### Sorting Algorithms
 
-- Selection Sort
-- Insertion Sort
-- Heap Sort
-- Merge Sort
-- Quick Sort
+- [Selection Sort](/content/02-sorting-algorithms/selection-sort.md)
+- [Insertion Sort](/content/02-sorting-algorithms/insertion-sort.md)
+- [Heap Sort](/content/02-sorting-algorithms/heap-sort.md)
+- [Merge Sort](/content/02-sorting-algorithms/merge-sort.md)
+- [Quick Sort](/content/02-sorting-algorithms/quick-sort.md)
 
 ### Dynamic Programming (Examples)
 
