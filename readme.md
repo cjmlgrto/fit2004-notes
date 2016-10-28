@@ -32,11 +32,12 @@ In this repo is everything I've learned while studying the FIT2004 unit at Monas
 
 ### Efficient Lookup and Retrieval
 
-- Hash Tables
-- Binary Search Trees
-- AVL Trees
-- B-Trees
-- Retrieval Trees
+- [Hash Tables](/content/04-efficient-lookup-and-retrieval/hash-tables.md)
+- [Binary Search Trees](/content/04-efficient-lookup-and-retrieval/binary-search-trees.md)
+- [AVL Trees](/content/04-efficient-lookup-and-retrieval/avl-trees.md)
+- [B-Trees](/content/04-efficient-lookup-and-retrieval/b-trees.md)
+- [Retrieval Trees](/content/04-efficient-lookup-and-retrieval/retrieval-trees.md)
+- [Suffix Trees](/content/04-efficient-lookup-and-retrieval/suffix-trees.md)
 
 ### Compression
 
