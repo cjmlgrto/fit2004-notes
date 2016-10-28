@@ -41,7 +41,7 @@ In this repo is everything I've learned while studying the FIT2004 unit at Monas
 
 ### Compression
 
-- Burrows-Wheeler Transform
+- [Burrows-Wheeler Transform](/content/05-compression/burrows-wheeler-transform.md)
 
 ### Graph Algorithms
 
