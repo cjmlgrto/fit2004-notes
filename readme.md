@@ -9,7 +9,7 @@ In this repo is everything I've learned while studying the FIT2004 unit at Monas
 ### Formalities
 
 - [Abstract Data Types](/content/01-formalities/abstract-data-types.md)
-- The List ADT
+- [The List ADT]((/content/01-formalities/list-adt.md))
 - The Tree ADT
 - Correctness
 - Complexity
