@@ -59,9 +59,9 @@ In this repo is everything I've learned while studying the FIT2004 unit at Monas
 
 ### Directed Acyclic Graphs
 
-- Directed Acyclic Graphs
-- Topological Sort
-- Kahn's Algorithm
+- [Topological Sort](/content/08-directed-acyclic-graphs/topological-sort.md)
+- [Kahn's Algorithm](/content/08-directed-acyclic-graphs/kahns-algorithm.md)
+- [Depth-first Search](/content/08-directed-acyclic-graphs/depth-first-search.md)
 
 ### Numerical Algorithms
 
