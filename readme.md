@@ -45,9 +45,9 @@ In this repo is everything I've learned while studying the FIT2004 unit at Monas
 
 ### Graph Algorithms
 
-- Graphs
-- Breadth-First Search
-- Dijkstra's Algorithm
+- [Graphs](/content/06-graph-algorithms/graphs.md)
+- [Breadth-First Search](/content/06-graph-algorithms/breadth-first-search.md)
+- [Dijkstra's Algorithm](/content/06-graph-algorithms/dijkstras-algorithm.md)
 - Bellman-Ford Algorithm
 - Floyd-Warshall Algorithm
 
