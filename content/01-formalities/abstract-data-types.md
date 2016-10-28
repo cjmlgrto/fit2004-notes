@@ -1,4 +1,4 @@
-[← Return to Index](github.com/cjmlgrto/fit2004-notes)
+[← Return to Index](https://github.com/cjmlgrto/fit2004-notes)
 
 # Abstract Data Types
 
@@ -21,9 +21,9 @@ Some examples of ADTs are:
 
 ADTs are used because:
 
-- They make it **easier to reason with complex data structures**, especially when writing complicated algorithms 
+- They make it **easier to reason with complex data structures**, especially when writing complicated algorithms. 
 	- (e.g. it's easier to say you're working with a 'list' rather than constantly defining a series of variables)
-- ADTs have **expected properties and behaviours** by convention, which means they are independent of its implementation 
+- ADTs have **expected properties and behaviours** by convention, which means they are independent of its implementation.
 	- (e.g. a list works like a list, no matter which programming language)
 
 
