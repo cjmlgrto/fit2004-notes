@@ -75,8 +75,8 @@ In this repo is everything I've learned while studying the FIT2004 unit at Monas
 
 ### Primes
 
-- Primality
-- Fermat's Little Theorem
+- [Primality](/content/11-primes/primality.md)
+- [Fermat's Little Theorem](/content/11-primes/fermats-little-theorem.md)
 
 ### Algorithmic Design Principles
 
