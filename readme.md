@@ -80,4 +80,4 @@ In this repo is everything I've learned while studying the FIT2004 unit at Monas
 
 ### Algorithmic Design Principles
 
-- Strategies and Writing Algorithms 
+- [Strategies and Writing Algorithms](/content/12-algorithmic-design-principles/strategies-and-writing-algorithms.md)
