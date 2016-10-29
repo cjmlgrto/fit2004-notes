@@ -71,9 +71,7 @@ In this repo is everything I've learned while studying the FIT2004 unit at Monas
 
 ### P vs NP
 
-- The P vs NP Problem
-- P Class Problems
-- NP Class Problems
+- [The P vs NP Problem](/content/10-p-vs-np/p-vs-np-problem.md)
 
 ### Primes
 
