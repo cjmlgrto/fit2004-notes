@@ -25,7 +25,7 @@ In this repo is everything I've learned while studying the FIT2004 unit at Monas
 ### Dynamic Programming (Examples)
 
 - [ ] Fibonacci Sequence
-- [ ] Coins Change
+- [Coins Change](/content/03-dynamic-programming/coins-change.md)
 - [ ] Subset Sum
 - [ ] Edit Distance
 - [ ] Hirschberg's Algorithm
