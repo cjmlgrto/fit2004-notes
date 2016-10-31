@@ -58,5 +58,69 @@ r   t   w
 - On average, Tries can be slower (in some cases) than Hash Tables for lookups
 - Requires _a lot of wasted space_ due to each node having an array with a size N for alphabet size N (and leaf nodes have null pointers)
 
+### Python Implementation
 
-
+```python
+class TrieNode:
+	def __init__(self, char, value=None):
+		self.char = char
+		self.value = value
+		self.children = [None] * 26
+		# 26 = alphabet
+		self.indices = []
+		
+	def __contains__(self, char):
+		if self.children[ord(char) % 26] is None:
+			return False
+		else:
+			return True
+			
+	def __setitem__(self, char, value):
+		i = ord(char) % 26
+		self.children[i] = value
+		self.indices.append(i)
+		
+	def __getitem__(self, char):
+		return self.children[ord(char) % 26]
+		
+class Trie:
+	def __init__(self):
+		self.root = TrieNode('')
+		
+	def insert(self, string, value):
+		current = self.root
+		for char in string:
+			if char not in current:
+				current[char] = TrieNode(char)
+			current = current[char]
+		current.value = value
+		
+	def get(self, string):
+		current = self.root
+		for char in string:
+			if char in current:
+				current = current[char]
+			else:
+				return None
+		return current.value
+		
+	def match(self, prefix):
+		current = self.root
+		for char in prefix:
+			if char in current:
+				current = current[char]
+			else:
+				return None
+		return self.collect(current)
+		
+	def collect(self, current)
+		collection = []
+		self._collect_aux(current, collection)
+		return collection
+		
+	def _collect_aux(self, current, collection):
+		if current.value is not None:
+			collection.append(current.value)
+		for i in current.indices:
+			self._collect_aux(current.children[i], collection)
+```
