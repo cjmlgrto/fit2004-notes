@@ -33,7 +33,7 @@ For example, the second-last row considers if it's possible to build up the sums
 	- For every column (`sum`):
 		- For the very first row only: If the `sum` < `item`, set it to **False**
 		- Check the value of the cell directly above it, and directly above it with `sum` rows back
-			- If either is true, set it to **True**— else **False***
+			- If either is true, set it to **True**— else **False**
 4. The item in the bottom-right-most position will say if the subset sum is possible or not.
 
 #### Python Implementation

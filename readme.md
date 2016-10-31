@@ -24,7 +24,7 @@ In this repo is everything I've learned while studying the FIT2004 unit at Monas
 
 ### Dynamic Programming (Examples)
 
-- [ ] Fibonacci Sequence
+- [Fibonacci Sequence](/content/03-dynamic-programming/fibonacci-sequence.md)
 - [Coins Change](/content/03-dynamic-programming/coins-change.md)
 - [Subset Sum](/content/03-dynamic-programming/subset-sum.md)
 - [ ] Edit Distance
