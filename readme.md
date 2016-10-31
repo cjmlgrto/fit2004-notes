@@ -27,7 +27,7 @@ In this repo is everything I've learned while studying the FIT2004 unit at Monas
 - [Fibonacci Sequence](/content/03-dynamic-programming/fibonacci-sequence.md)
 - [Coins Change](/content/03-dynamic-programming/coins-change.md)
 - [Subset Sum](/content/03-dynamic-programming/subset-sum.md)
-- [ ] Edit Distance
+- [Edit Distance](/content/03-dynamic-programming/edit-distance.md)
 - [ ] Hirschberg's Algorithm
 
 ### Efficient Lookup and Retrieval
