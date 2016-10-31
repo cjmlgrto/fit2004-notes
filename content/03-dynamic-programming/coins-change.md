@@ -10,6 +10,8 @@ Given a set of coins, `C = {2,3,5,7}` and a value `V = 10`, what is the minimum 
 
 Use existing solutions to build up an answer! (A really good video explanation [here](https://www.youtube.com/watch?v=NJuKJ8sasGk)).
 
+#### Algorithm
+
 1. Create a list `T = [∞] * V`
 2. For every coin `j` in the range `0..len(C)`:
 	- For every slot `i` in the range `0..len(T)`:
