@@ -2,12 +2,16 @@
 
 # Insertion Sort
 
-|             | Complexity              | Note |  
+|             | Complexity              | Note |
 |---          |---                      |---   |
-| Worst Case: | **O(n<sup>2</sup>)**    | When the list is sorted in reverse |
-| Best Case:  | **O(n)**                | When the list is already sorted |
+| Best Time: | **O(n)**    | No shuffling, list is already sorted |
+| Average Time:  | **O(n<sup>2</sup>)**    | Some shuffling required
+| Worst Time:  | **O(n<sup>2</sup>)**    | List is sorted in reverse, thus shuffling required for every element
 | Stability:  | **Stable**              |
 | In-place:   | **Yes**
+| Best Space:  | **O(1)**    | It is in-place
+| Average Space:  | **O(1)**    | It is in-place
+| Worst Space:  | **O(1)**    | It is in-place
 
 ### Algorithm
 

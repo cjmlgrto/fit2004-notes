@@ -2,12 +2,16 @@
 
 # Heap Sort (Min-Heap)
 
-|             | Complexity              | Note | 
+|             | Complexity              | Note |
 |---          |---                      |---   |
-| Worst Case: | **O(n log n)**    | Insertion takes O(n), Heap operations take O(log n) |
-| Best Case:  | **O(n log n)**    | Insertion takes O(n), Heap operations take O(log n)
+| Best Time: | **O(n)**    | List is iterated once without any sink operations |
+| Average Time:  | **O(n log n)**    | Insertion takes O(n), Heap operations take O(log n)
+| Worst Time:  | **O(n log n)**    | Same as above
 | Stability:  | **No**              |
 | In-place:   | **Yes**
+| Best Space:  | **O(1)**    | Implemented in-place 
+| Average Space:  | **O(1)**    | Same as above
+| Worst Space:  | **O(1)**    | Same as above
 
 ### (Min) Heap Data Structure Properties
 

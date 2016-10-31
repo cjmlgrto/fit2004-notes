@@ -4,10 +4,14 @@
 
 |             | Complexity              | Note |
 |---          |---                      |---   |
-| Worst Case: | **O(n<sup>2</sup>)**    | Because it has to compare every item in the list |
-| Best Case:  | **O(n<sup>2</sup>)**    | Because it has to compare every item in the list
+| Best Time: | **O(n<sup>2</sup>)**    | Finding the minimum elements takes time linear to the number of element |
+| Average Time:  | **O(n<sup>2</sup>)**    | Same as above
+| Worst Time:  | **O(n<sup>2</sup>)**    | Finding the minimum elements takes time linear to the number of element
 | Stability:  | **No**              |
 | In-place:   | **Yes**
+| Best Space:  | **O(1)**    | It is in-place
+| Average Space:  | **O(1)**    | It is in-place
+| Worst Space:  | **O(1)**    | It is in-place
 
 ### Algorithm
 

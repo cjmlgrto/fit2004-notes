@@ -2,12 +2,16 @@
 
 # Merge Sort
 
-|             | Complexity              | Note | 
+|             | Complexity              | Note |
 |---          |---                      |---   |
-| Worst Case: | **O(n log n)**    | Height of the binary tree times merge complexity |
-| Best Case:  | **O(n log n)**    | Height of the binary tree times merge compexity
+| Best Time: | **O(n log n)**    | Merge operation on every step |
+| Average Time:  | **O(n log n)**    | Same as above
+| Worst Time:  | **O(n log n)**    | Same as above
 | Stability:  | **Stable**              |
 | In-place:   | **No**
+| Best Space:  | **O(n)**    | Requires splitting list into new ones
+| Average Space:  | **O(n)**    | Same as above
+| Worst Space:  | **O(n)**    | Same as above
 
 ### Algorithm
 

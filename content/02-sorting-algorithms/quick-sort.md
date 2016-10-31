@@ -1,13 +1,17 @@
 [← Return to Index](https://github.com/cjmlgrto/fit2004-notes)
 
-# Quicksort
+# Quick Sort
 
-|             | Complexity              | Note | 
+|             | Complexity              | Note |
 |---          |---                      |---   |
-| Worst Case: | **O(n<sup>2</sup>)**    | Height of the binary tree times merge complexity |
-| Best Case:  | **O(n log n)**    | Height of the binary tree times merge compexity
+| Best Time: | **O(n log n)**    | Pivot chosen is median; equal split on every recursive call |
+| Average Time:  | **O(n log n)**    | Same as above
+| Worst Time:  | **O(n<sup>2</sup>)**    | Poor choice of pivot; list is naively sorted at n recursive calls
 | Stability:  | **No**              |
 | In-place:   | **No**
+| Best Space:  | **O(log n)**    | log n recursive calls, and pointers stored for every recursive call 
+| Average Space:  | **O(log n)**    | Same as above
+| Worst Space:  | **O(n)**    | Poor pivot, and thus n recursive calls
 
 ### Algorithm
 
