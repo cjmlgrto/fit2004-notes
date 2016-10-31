@@ -24,11 +24,11 @@ In this repo is everything I've learned while studying the FIT2004 unit at Monas
 
 ### Dynamic Programming (Examples)
 
-- Fibonacci Sequence
-- Coins Change
-- Subset Sum
-- Edit Distance
-- Hirschberg's Algorithm
+- [ ] Fibonacci Sequence
+- [ ] Coins Change
+- [ ] Subset Sum
+- [ ] Edit Distance
+- [ ] Hirschberg's Algorithm
 
 ### Efficient Lookup and Retrieval
 
